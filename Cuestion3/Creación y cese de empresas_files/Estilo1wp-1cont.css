@@ -1,0 +1,1291 @@
+﻿body {
+}
+
+/* ##### TEXTOS DE CONTENIDOS REUTILIZABLES ##### */
+
+.ms-reusableTextView {
+    background-color: #FFF !important;
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+    border: 0 !important;
+}
+
+
+#contenido_central .dgpymecentrar {
+    text-align: center;
+}
+
+#contenido_central .negrita {
+    color: #000;
+    font-weight: bold;
+}
+
+#contenido_central :focus {
+    outline: thin dotted;
+}
+
+#contenido_central a {
+    /*color: #285286;*/
+    text-decoration: underline;
+}
+
+    #contenido_central a:hover {
+        text-decoration: none;
+    }
+
+#contenido_central #contenedorgeneralEjercicioWhite a {
+    text-decoration: none;
+}
+
+#contenido_central a img {
+    border: none;
+}
+
+.cajacontenidogeneral {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+#contenido_central .alineardcha,
+.alineardcha {
+    text-align: right;
+}
+
+#contenido_central .indentado {
+    margin-left: 1em;
+}
+
+#contenido_central .especial {
+    margin: 1em 2em;
+    background-color: #C04700;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+#contenido_central .overflowAuto {
+    overflow: auto;
+}
+
+#contenido_central .sinsub {
+    text-decoration: none;
+}
+
+/* Listas ul , ol , li*/
+
+#contenido_central .textos_contenido ul {
+    margin-left: 2em;
+}
+
+#contenido_central .textos_contenido ul, #contenido_central .textos_contenido li {
+    padding: 0.5em 0.6em;
+    position: relative;
+}
+
+    #contenido_central .textos_contenido li li, #contenido_central .textos_contenido li li li {
+        padding: 0.3em 0.6em;
+    }
+
+#contenido_central .textos_contenido ol li ul li {
+    list-style: disc;
+}
+
+#contenido_central .textos_contenido .listado {
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 1em 1em 1em 3em;
+}
+
+/*TABLAS*/
+
+#contenido_central #resultados,
+#contenido_central #contenedorgeneralforma > div,
+#contenido_central .wpListadocontenido > div {
+    overflow-x: auto;
+}
+
+
+#contenido_central table {
+    border-collapse: collapse;
+    color: #000;
+    margin: 0.5em auto 1.5em auto;
+    padding: 0; 
+}
+
+#contenido_central table th {    
+    background-color: #333333;
+    border-right: 0;
+        box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    padding: 1em;
+    text-align: left;
+        text-transform: uppercase;
+    vertical-align: middle;        
+}
+
+        #contenido_central table th.negrita {
+	color: #fff;
+}
+
+#contenido_central table th:last-child {    
+    /*border-right: 0;*/
+}
+
+    #contenido_central table td {
+    background-color: #fff;
+    border-bottom: 4px solid #ebebeb;
+        box-sizing: border-box;
+    /*line-height: 1.5em;*/
+    padding: 1em;
+    text-align: left;
+}
+
+#contenido_central table th:first-child,
+        #contenido_central table td:first-child {
+    /*border-left: 0;*/
+}
+
+#contenido_central table th:last-child,
+        #contenido_central table td:first-child {
+    /*border-right: 0;*/
+}
+
+    #contenido_central table th {
+	border-right: 4px solid #333333;
+	border-left: 4px solid #333333;
+}
+
+
+    #contenido_central table td {
+	border-right: 4px solid #ebebeb;
+	border-left: 4px solid #ebebeb;
+}
+
+
+#contenido_central TABLE.pqna CAPTION {
+    display: none;
+}
+
+#contenido_central TABLE CAPTION {
+    font-weight: bold;
+}
+
+#contenido_central .cajainserciondestacados {
+    width: 75%;
+    margin: 0.3em auto 1.3em auto;
+    padding: 0.5em 0 4.5em 0;
+    text-align: center;
+}
+
+#contenido_central .caja-imagen {
+    float: left;
+    width: auto;
+    margin: 0 1em 0 0;
+    padding: 0;
+}
+
+#contenido_central .caja-texto {
+    float: left;
+    width: 70%;
+    margin: 0;
+    padding: 2em 0 0 1em;
+    text-align: left;
+}
+
+#contenido_central .cajainserciondestacadosG.informacion > .caja-texto { /* herramienta Gestor */
+    padding: 0;
+    text-align: center;
+}
+
+#contenido_central .caja-texto A {
+    text-decoration: none;
+}
+
+#contenido_central .caja-texto UL {
+    list-style: none !important;
+    list-style-image: none;
+    padding-top: 1em;
+}
+
+#contenido_central .textos_contenido ol li {
+    list-style: decimal outside;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+#contenido_central .textos_contenido ul li ol {
+	list-style-type: roman !important;
+    padding-left: 3em;    
+}
+
+#contenido_central H2 a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0;    
+}
+
+/* ######### DATOS ABIERTOS ####### */
+
+#contenido_central UL.indicesDatos {
+    list-style: outside;
+    width: auto;
+    list-style-image: url('/Style Library/img/bulletDatos.jpg') !important;
+    margin: 0 0 0 3em;
+    padding: 0em 0.1em 0.5em 2em;
+    line-height: 1.5em;
+    font-size: 110%;
+}
+
+    #contenido_central UL.indicesDatos LI {
+        padding: 0 0.5em 0 0.1em;
+        margin: 1.6em 0 1.6em 0.1em;
+    }
+
+
+#contenido_central #GuiasDinamicas h3 {
+    cursor: pointer;
+    color: #000;
+    margin: 0.2em 0 0.4em 0;
+    padding: 0.5em;
+    font-weight: normal;
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+
+    #contenido_central #GuiasDinamicas h3 A,
+    #contenido_central #GuiasDinamicas h4 A,
+    #contenido_central #GuiasDinamicas UL LI A {
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+
+
+#contenido_central #GuiasDinamicas h4 {
+    color: #000;
+    margin: 0.2em 0 1em 5em;
+    padding-left: 2.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    #contenido_central #GuiasDinamicas h4.especial {
+        padding-left: 1.5em;
+    }
+
+
+        #contenido_central #GuiasDinamicas h4.especial + DIV {
+            padding-left: 3em;
+        }
+
+
+#contenido_central #GuiasDinamicas UL {
+    list-style: outside;
+    width: auto;
+    margin: 0 0 0 5em;
+    padding: 0em 0.1em 0.5em 1em;
+    line-height: 1.5em;
+    font-size: 110%;
+}
+
+    #contenido_central #GuiasDinamicas UL LI {
+        padding: 0 0.5em 0 0.5em;
+        margin: 0.4em 0 0.4em 0.1em;
+    }
+
+#contenido_central .imprimir-ext {
+    text-align: right;
+}
+
+    #contenido_central .imprimir-ext A {
+        text-decoration: none;
+    }
+
+#contenido_central #listapublicaciones legend {
+    display: none;
+}
+
+#contenido_central #listapublicaciones label {
+    display: block;
+    padding-bottom: 0.5em;
+}
+
+#contenido_central #listapublicaciones .cajaguiadinamica {
+    background-color: #fafafa;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid #bbb;
+}
+
+    #contenido_central #listapublicaciones .cajaguiadinamica img {
+        float: left;
+        margin-right: 1em;
+    }
+
+    #contenido_central #listapublicaciones .cajaguiadinamica ul {
+        list-style: none;
+        list-style-image: none;
+    }
+
+    #contenido_central #listapublicaciones .cajaguiadinamica .titulomodulo {
+        font-weight: bold;
+        font-size: 110%;
+    }
+
+#contenido_central #ctl00_ctl43_g_5af981d1_4246_4b99_9235_b73d10669359_ctl00_chkCategoriasPubli label {
+    padding-left: 0.3em;
+}
+
+#listapublicaciones .video-formativo {
+    margin: 0.6em 0.2em;
+    /*padding:0.6em 1em 0.6em 0.6em;*/
+    padding-right: 0.5em;
+    background-color: #fafafa;
+    border: 1px solid #bbb;
+    overflow: hidden;
+}
+
+    #listapublicaciones .video-formativo P:first-child {
+        float: left;
+        width: 15%;
+        margin-right: 2em;
+        padding: 0.3em;
+    }
+
+    #listapublicaciones .video-formativo SPAN {
+        font-weight: normal;
+        color: #1C488E;
+    }
+
+    #listapublicaciones .video-formativo a {
+        font-weight: bold;
+        color: #1C488E;
+        /*color: #000;*/
+        text-decoration: none;
+        font-size: 110%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+        #listapublicaciones .video-formativo a:hover {
+            text-decoration: underline;
+            color: #0f2549;
+        }
+
+        #listapublicaciones .video-formativo a:visited {
+            color: #404E65;
+        }
+
+    #listapublicaciones .video-formativo P {
+        width: auto;
+        /*margin: 0.4em 0 0.4em 0.4em;*/
+        line-height: 1.9em;
+    }
+
+        #listapublicaciones .video-formativo P IMG {
+            border: 0;
+            padding-right: 1em;
+        }
+
+/*Botones*/
+
+#contenido_central .boton a,
+#contenido_central .btn-a,
+#contenido_central #ayudasiframe a.boton, #contenido_central .cajainserciondestacadosG.informacion a.boton {
+	background-color: #C04700;
+	border-radius: 30px;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+    padding: 1em !important;
+    text-decoration: none;
+    text-transform: uppercase;    
+    background-image: none !important;
+}
+
+#contenido_central .boton a:hover,
+#contenido_central #ayudasiframe a.boton:hover,
+#contenido_central .textos_contenido .btn-a:hover,
+#contenido_central .textos_contenido .boton a:hover, 
+#contenido_central .cajainserciondestacadosG.informacion a.boton:hover {
+	background-color: #4f4f4f;
+	color: #fff;
+}
+
+.img-acrobat {
+    box-shadow: #4f4f4f 0px 0px 2px;
+    width: 39px;
+}
+
+/* ######### FORMULARIOS ######## */
+
+#contenido_central fieldset {
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #c8c8c8;
+    border: 0;
+}
+
+#contenido_central .ayudasDgpyme_difusion fieldset {
+	padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+}
+
+#contenido_central fieldset legend {
+    display: none;
+}
+
+#contenido_central .textos_contenido fieldset ol li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contenido_central li input[type=radio],
+#contenido_central li input[type=radio] + label,
+#contenido_central li label ~ input[type=radio] {
+    display: inline-block;
+    margin: 1em 0 0.5em 0;
+}
+
+#contenido_central li input[type=radio] {
+    margin-right: 0.3em;
+}
+
+#contenido_central .zonabotones {
+    width: 100%;
+    margin: 1.5em 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contenido_central #formulariocorreo .zonabotones input[type=submit] {
+    margin-bottom: 0.5em;
+}
+
+#contenido_central input[type=button]:hover, #contenido_central input[type=reset]:hover, #contenido_central input[type=submit]:hover, #contenido_central button:hover {
+	background-color: #4f4f4f;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenido_central label {
+	display: inline-block;
+	margin: 1em 0 0.5em 0;    
+}
+
+#contenido_central #FormasJuridicasAcc label {
+	margin: 0;    
+}
+
+#contenido_central textarea {
+	resize: vertical;
+    min-height: 100px;
+}
+    
+#contenido_central .zonacontrolformularioerror {
+    background-color: #FCE98C;
+    border-radius: 0.2em;
+    margin: 1em 0;
+}
+
+    #contenido_central .zonacontrolformularioerror ul {
+        margin: 0;
+        padding: 0;
+}
+
+#contenido_central .zonacontrolformularioerror li {
+        list-style: none;
+}
+
+        #contenido_central .zonacontrolformularioerror li:before {
+	color: #CCB64E;
+	content: "\f071";
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    display: inline-block;
+    padding-right: 6px;
+    vertical-align: middle;    
+}
+    
+#contenido_central .textoerror {
+    color: #990000;
+}
+
+/* ######## CONTRATOS DE TRABAJO ####### */
+
+#contenido_central .wpListadocontenido UL.indices LI {
+    padding: 0 0.5em 0 0.1em;
+    margin: 0.6em 0 0.6em 0.1em;
+}
+
+p.ContratoTrabajo,
+p.SubContratoTrabajo,
+p.SubApartado {
+    font-weight: normal;
+    color: #000;
+}
+
+p.ContratoTrabajo {
+    font-size: 1.65em;
+    padding: 0.5em 0;
+    line-height: 1.25em;
+}
+
+p.SubContratoTrabajo,
+p.SubApartado {
+    font-size: 1.2em;
+    padding: 0.55em 0;
+    line-height: 1.25em;
+    cursor: pointer;
+}
+
+
+/*contenido*/
+
+h1,
+.tituloHome,
+.ms-rtestate-field p.tituloHome,
+#contenido_central .novedades_incidencias_home h2,
+#contenido_central .cajalateraldchamini h2 {
+    font-size: 1.8em;
+}
+
+#contenido_central .destacados .titulo {
+    font-size: 1.5em;
+}
+
+.contenido_right h1{
+    font-size: 1.8em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#contenido_central .contenido_left.home {
+    display: block;
+    margin-top: 1em;
+}
+
+#contenido_central .destacados .banner,
+.no-flexbox #contenido_central .destacados .banner,
+.imagenes_home .destacados .banner,
+.no-flexbox .imagenes_home .destacados .banner {
+    display: inline;
+}
+
+    #contenido_central .destacados .banner li,
+    .no-flexbox #contenido_central .destacados .banner li,
+    .imagenes_home .destacados .banner li,
+    .no-flexbox .imagenes_home .destacados .banner li {
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+#contenido_central .destacados .iconos div {
+    width: 90px;
+    height: 90px;
+}
+
+.collapse-button {
+    left: 40px;
+    top: 24px;
+}
+
+.search-form {
+    right: 40px;
+}
+
+/* Guía dinámica de ayudas e incentivos */
+/* DatosPYME - Cifras CIRCE */
+
+.right {
+    float: right;
+}
+
+#ayudasiframe h2,
+#ayudasiframe p.tituloG {
+    display: none;
+}
+
+#ayudasiframe .cajatexto {
+    float: left;
+    width: 58%;
+    margin: 0 0.9em 0 0%;
+    padding: 0;
+}
+
+#ayudasiframe .cajaimagen {
+    float: left;
+    width: 29%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#ayudasiframe img {
+    margin: 2em 0;
+    height: auto;
+    box-shadow: 0 0 3px;
+}
+
+
+#ayudasiframe A:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+#ayudasiframe A:visited {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+#ayudasiframe A:hover {
+    color: inherit;
+    background-color: inherit;
+    text-decoration: underline;
+}
+
+/***Acordeon***/
+
+#contenido_central p.item,
+#contenido_central p.apartado,
+#contenido_central .accordion-header,
+#contenido_central p.titulo.accordion-header,
+#contenido_central .PreguntasFrecuentes .accordion-header,
+#contenido_central .PreguntasFrecuentes p.PreguntasFrecuentes,
+#contenido_central .PreguntasFrecuentes p.PFrecuentes {
+    margin: 0 0 1em 0;
+    padding: 1em 0.5em 0.5em 1em;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 4px solid #ebebeb;
+}
+
+#contenido_central .AcFormasJuridicas p.item {
+    border-bottom: 0;
+    cursor: default;
+}
+
+ #contenido_central .tramitacionelectronica a.especial, #contenido_central .informacion a.especial {
+    border-radius: 30px;
+    color: #fff;
+    padding: 1em !important;
+    text-transform: uppercase;
+    background-image: none;
+}
+
+ #contenido_central .tramitacionelectronica A.especial, #contenido_central .informacion A.especial {
+    text-decoration: none;
+    font-weight: bold;
+    border: 0;
+    box-shadow: none;
+    margin: 0.1em 0;
+    background-color: #c04700;
+    font-style: normal;
+    display: inline-block;
+}
+
+ #contenido_central .tramitacionelectronica p.apartado, #contenido_central .informacion p.apartado {
+    margin: 0.5em 0 0;
+    padding: 0.8em 1em;
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1em;
+    background-color: #4f4f4f;
+}
+
+ #contenido_central .tramitacionelectronica p {
+    text-align: center;
+}
+
+ #contenido_central .tramitacionelectronica .indentado {
+    margin-left: 0;
+}
+
+ #contenido_central .tramitacionelectronica {
+    float: none;
+    padding: 1em 0.5em;
+    margin: 1.5em auto;
+    font-size: 1.1em;
+    background-color: #EBEBEB;
+}
+
+    #contenido_central .tramitacionelectronica .accordion-header:hover, #contenido_central .tramitacionelectronica p.accordion-header:hover, #contenido_central .tramitacionelectronica .accordion-header.ui-state-active, #contenido_central .informacion .accordion-header:hover, #contenido_central .informacion .accordion-header.ui-state-active {
+    background-color: #c04700;
+}
+
+ .wpListadocontenido .apartado, .wpListadocontenido h4, .wpListadocontenido .tituloforma-esp {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+}
+
+ #contenido_central .tramitacionelectronica a.especial:hover, #contenido_central .informacion a.especial:hover {
+    background-color: #4f4f4f;
+    color: #fff;
+}
+
+#contenido_central .tramitacionelectronica a.especial, #contenido_central .informacion a.especial {
+    border-radius: 30px;
+    color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+    background-image: none;
+}
+
+#contenido_central .tramitacionelectronica p.apartado + DIV, #contenido_central .informacion p.apartado + DIV {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.icon-accordion-off {
+    background: url('/Style%20Library/img/acordeon-off.png');
+    background-repeat: no-repeat;
+    padding: 9px 0.6em 0.4em 1.6em;
+    border: none !important;
+}
+
+.icon-accordion-white-off {
+    background: url('/Style%20Library/img/acordeon-white-off.png');
+    background-repeat: no-repeat;
+    margin: 0 0 1em 0;
+    padding: 9px 0.6em 0.4em 1.6em;
+}
+
+ p.apartado:before, #contenido_central .informacion p.apartado:before {
+    color: #fff;
+}
+
+#contenido_central .AcFormasJuridicas p.item:before {
+    content: "";
+    padding: 0;
+}
+
+#contenido_central .accordion-header:hover,
+#contenido_central .accordion-header.ui-state-active {
+    color: #C04700;
+}
+
+#contenido_central .ui-accordion .ui-accordion-content {
+    overflow: auto;
+    display: none;
+    padding: 1em;
+}
+
+.ui-accordion .ui-accordion-content-active {
+    display: block;
+    border-bottom: 4px solid #ebebeb;
+}
+
+#contenedorgeneralEjercicio > a {
+    text-decoration: none !important;
+}
+/*Alinear botones*/
+#contenido_central .anteriorsiguiente {
+    margin: 2em 0;
+    padding: 0;
+    margin-right: 4em;
+}
+
+#contenido_central .anteriorsiguiente ul li.ultimo {
+    float: right;
+    text-align: right;
+}
+
+#contenido_central .anteriorsiguiente ul li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+#contenido_central .textos_contenido ul, #contenido_central .textos_contenido li {
+    padding: 0.5em 0.6em;
+    position: relative;
+}
+
+#contenido_central .cajainserciondestacadosG.informacion {
+    width: 55%;
+    margin: 0em auto;
+    padding: 0.2em;
+    text-align: center;
+    background-color: #fff;
+    display: table;
+}
+
+#contenido_central .cajainserciondestacadosG {
+    width: 75%;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+    background-color: #C8C8C8;
+    display: table;
+}
+
+#contenido_central .caja-imagenG {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+#contenido_central .caja-textoG {
+    float: left;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#contenido_central .cajainserciondestacadosG .cajaCreaEmpresa ul {
+    list-style: none !important;
+    list-style-image: none;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+#contenido_central .caja-imagenG {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+#contenido_central .herramientas {
+    background-color: #EBEBEB;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+#contenido_central .herramientas ul {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenido_central .herramientas ul li {
+    display: inline-block;
+    width: 45%;
+    margin: 1em;
+    padding: 0;
+    vertical-align: top;
+}
+
+#contenido_central .sinsub {
+    text-decoration: none;
+}
+
+/* LISTADO DE LAS SGR */
+
+#contenido_central .wpListadocontenido {
+    clear: both;
+}
+
+#contenido_central .mapaespania {
+    float: left;
+    width: 100%;
+}
+
+    #contenido_central .mapaespania .listadoccaa ul {
+    }
+
+        #contenido_central .mapaespania .listadoccaa ul li {
+            width: 40%;
+            float: left;
+            margin-right: 1em;
+            max-width: 220px;
+            padding: 0.25em;
+        }
+
+
+#contenido_central .listadoSGR {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+    #contenido_central .listadoSGR ul li a {
+        text-decoration: none;
+    }
+
+        #contenido_central .listadoSGR ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #contenido_central .listadoSGR ul li {
+            margin: 0;
+            width: 100%;
+            padding: 0.5em 0.6em;
+            position: relative;
+        }
+
+    #contenido_central .listadoSGR .cat {
+        background-color: #EBEBEB;
+        padding: 0.2em 0 0.2em 1em;
+        float: left;
+        width: 20%;
+        text-align: right;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    #contenido_central .listadoSGR .cont {
+        width: 100%;
+        margin: 0;
+        font-weight: bold;
+        display: block;
+        padding: 0.2em 0 0.2em 1em;
+    }
+
+    #contenido_central .listadoSGR P.tituloSGR {
+        font-size: 1.2em;
+        line-height: 1em;
+        font-weight: bold;
+    }
+
+#contenido_central .mapaespania #Comunidadesautonomas1_Mapa1_mapa_esp {
+    float: right;
+    margin: 0.6em;
+}
+
+#contenido_central .insertarimagen,
+#contenido_central div.listadoccaa {
+    float: left;
+}
+
+#contenido_central div.listadoccaa {
+    max-width: 550px;
+    margin-bottom: 1em;
+}
+
+#contenido_central .mapaespania .listadoccaa ul {
+    padding: 0.5em 0.6em;
+    position: relative;
+}
+
+/* Noticias - Novedades */
+
+li.lista-historico {
+    padding: 0 !important;
+}
+
+#noticiasinteres {
+    margin: 2em 0.2em 2em;
+    width: 100%;
+    text-align: center;
+}
+
+    #noticiasinteres .contenido-noticias a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #noticiasinteres .contenido-noticias {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 2px;
+    }
+
+    #noticiasinteres .caja-noticia {
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 0.2em 0 0.2em 0;
+        padding: 1em;
+        background: #fff;
+        line-height: 1.4em;
+        text-align: left;
+        overflow-wrap: break-word;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5px;
+        border-radius: 8px 8px 8px 8px;
+        -moz-border-radius: 8px 8px 8px 8px;
+        -webkit-border-radius: 8px 8px 8px 8px;
+        max-height: 100%;
+        border: 1px solid #dfdfdf;
+        background-color: #f7f7f7;
+    }
+
+    #noticiasinteres .fechaNoticia {
+        font-size: 17px;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 2px;
+        font-weight: bold;
+        color: #C04700;
+    }
+
+.col1 {
+    width: 80%;
+    margin: -0.8em 0 1em 0;
+    padding: 1em;
+    display: -webkit-box;
+    height: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.4em;
+    -webkit-box-orient: vertical;
+    max-height: 10.2em;
+}
+
+.col2 {
+    width: 5%;
+    margin: 0.5em 0 0.2em 0;
+    padding: 1em;
+}
+
+.contenidolistado {
+    background-color: #f7f7f7;
+    padding: 0.1em 1em 1em;
+    border: 1px solid #dfdfdf;
+    margin: 1em 0;
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+    .contenidolistado ul {
+        list-style: none;
+    }
+
+        .contenidolistado ul li {
+            margin: 0.5em 0;
+            padding: 0;
+        }
+
+    .contenidolistado a {
+        display: block;
+        float: left;
+        width: 30%;
+        height: 2.8em;
+        margin: 0.2em 2% 0.2em 0.2em;
+        padding: 0.1em 0.8em 0.9em;
+        border: 1px solid #D5E5F2;
+        border-left: 10px solid #C04700;
+        background: #fff;
+        line-height: 1.4em;
+        transition: 0.3s;
+        -moz-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        text-decoration: none !important;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+    }
+
+    .contenidolistado ul li a:hover {
+        background: #C04700;
+        color: #fff !important;
+        border: 1px solid #C04700;
+        border-left: 10px solid #C04700;
+    }
+
+.img-mas {
+    width: 35px;
+    height: 35px;
+}
+
+    .img-mas:hover {
+        opacity: 0.8;
+    }
+
+.fecha {
+    font-size: 17px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #C04700;
+}
+.video-formativo {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+
+.video-formativo a {
+    font-weight: bold;
+    color: #4f4f4f;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-image: none !important;
+}
+.video-formativo img {
+    float: left;
+    border: 0;
+    margin-right: 2em;
+}
+/*Web Part Constitucion*/
+#contenedorgeneralforma .ajax__tab_xp .ajax__tab_header {
+    background-image: none;
+    border-bottom: 4px solid #ebebeb; 
+    font-family: inherit;
+    font-size: 1em;
+     height: 50px; 
+}
+#FormasJuridicas .ajax__tab_xp .ajax__tab_header {
+    font-size: 1em;
+}
+.ajax__tab_xp .ajax__tab_header {
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11px;
+}
+.ajax__tab_default .ajax__tab_header {
+    white-space: normal !important;
+}
+.ajax__tab_xp .ajax__tab_header {
+    background-image: none;
+    margin: 0;
+    padding-bottom: 0;
+}
+#contenedorgeneralforma .ajax__tab_xp .ajax__tab_header {
+    background-image: none;
+    border-bottom: 4px solid #ebebeb;
+    font-family: inherit;
+    font-size: 1em;
+     height: 50px; 
+}
+#contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+    background-color: #c8c8c8;
+    background-image: none;
+    color: #000;
+    display: inline-table;
+    font-weight: bold;
+    height: auto;
+    margin: 0 4px 0 0;
+    padding: 1em;
+    text-transform: uppercase;
+}
+#FormasJuridicas .ajax__tab_xp .ajax__tab_header .ajax__tab_outer a {
+    border: 1px solid #ebebeb;
+    border-bottom: 0;
+    margin-right: 0.3em;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+}
+
+a#ProcesoCons {
+    visibility: visible !important;
+    display: block !important;
+}
+#contenedorgeneralforma .ajax__tab_xp .ajax__tab_header span {
+    display: table-cell;
+}
+.contenidoAcordeon{
+    padding: 1em;
+}
+.titulotramite{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #285286;
+}
+/*SubAcordeon*/
+#contenedorgeneralEjercicio .sub {
+    margin-left: 0;
+    background-color: #fff;
+    display: block;
+    padding: 0em 0em 0.3em 0.5em;
+    border-radius: 3px 3px 0 0;
+    margin-top: 1em;
+    transition: all 0.3s;
+    border: 0.1em solid #CCC;
+}
+/*Lista*/
+#contenedorgeneralEjercicio .contenidolistadoAcordeon{
+    background-color: #f7f7f7;
+    padding: 0.1em 1em 1em;
+    border: 1px solid #dfdfdf;
+    margin: 1em 0;
+    overflow: hidden;
+}
+#contenedorgeneralEjercicio .contenidolistadoAcordeon ul li{
+    display: inline;
+    float: left;
+    width: 50%;
+    padding: 0.3em;
+}
+
+/* ######## MAPA WEB ######## */
+
+
+#contenido_central #mapaWeb{
+	font-size: 1.1em;
+}
+
+#contenido_central #mapaWeb a:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted #666;
+    color: #666;
+}
+
+#contenido_central #mapaWeb a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#contenido_central #mapaWeb ul {
+    padding-left: 2em;
+    list-style: disc;
+}
+
+#contenido_central #mapaWeb ul li {
+    background-image: none !important;
+}
+/* ######## Servicios electrónicos ###### */
+
+#contenido_central .listadoServicios {
+	font-size: 110%;
+	margin: 1.5em 0 0.8em;
+}
+
+#contenido_central .listadoServicios a {
+    background-color: #c04700;
+    border-radius: 30px;
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 700px) {
+    #contenedorgeneralEjercicio .contenidolistadoAcordeon ul li {
+        width: 95%;
+    }
+}

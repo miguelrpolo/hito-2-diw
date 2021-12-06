@@ -1,0 +1,759 @@
+/*#contenido_central #FormasJuridicas a[target=_blank], #contenido_central #FormasJuridicasAcc a[target=_blank] {
+    background-image: url(/PublishingImages/nueva-ventana.jpg);
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    padding: 0 0.8em 0 0;
+}*/
+
+#contenido_central #FormasJuridicas a[href*="creatuempresa"], #contenido_central #FormasJuridicasAcc a[href*="creatuempresa"] {
+    background-image: none;
+}
+
+
+#contenido_central #contenedorgeneralforma SPAN#ctl00_PlaceHolderMain_fj_lForma {
+    color: #575757;
+    font-size: 1.45em;
+    font-weight: bold;
+    margin: 0.5em 0;
+    text-align: left;
+}
+
+#contenido_central #contenedorgeneralforma P.tituloformaG > A {
+    display: inline;
+    float: right;
+    width: auto;
+    margin: 0.2em 0;
+    text-align: right;
+    background-image: url(http://www.creatuempresa.org/es-ES/PromocionFJ/PublishingImages/btn_anterior.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 0em 0.4em 0em 2em;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 0.1em solid #f4f4f4;
+    font-size: 0.7em !important;
+}
+
+
+#contenido_central #contenedorgeneralforma .centrar {
+    text-align: center;
+}
+
+.ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+    left: .5em;
+    top: 50%;
+    margin-top: 0px;
+}
+
+.ui-icon {
+    width: 16px !important;
+    height: 20px !important;
+    background-image: none !important;
+}
+
+.ui-icon-plus {
+    background-position: -16px 0;
+    width: 19px !important;
+}
+
+.ui-icon-minus {
+    background-position: -45px 0;
+    width: 19px !important;
+}
+
+/* ######## formulario ELECCIÓN FORMA JURIDICA ######## */
+
+#contenido_central P.mensajescript {
+    font-weight: bold;
+    color: #FF3300;
+    margin: 1.5em 0 3em 0;
+}
+
+
+#contenido_central #preguntas {
+    background-color: #ebebeb;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 98%;
+}
+
+    #contenido_central #preguntas .pregunta {
+        display: inline-block;
+        margin: 1em 0;
+        padding: 0;
+        text-align: left;
+        vertical-align: top;
+        width: 30%;
+    }
+
+
+
+        #contenido_central #preguntas .pregunta P {
+            margin-left: 0.5em;
+            text-align: left;
+        }
+
+        #contenido_central #preguntas .pregunta TABLE {
+            background-color: #dde6ed;
+            border-collapse: separate;
+        }
+
+            #contenido_central #preguntas .pregunta TABLE TD {
+                background-color: #dde6ed;
+                text-align: left;
+                line-height: 2em;
+            }
+
+        #contenido_central #preguntas .pregunta fieldset {
+            min-height: 12em;
+            position: relative;
+        }
+
+        #contenido_central #preguntas .pregunta legend {
+            font-weight: bold;
+            display: block;
+            margin: 0;
+            position: absolute;
+        }
+
+        #contenido_central #preguntas .pregunta ul {
+            list-style: none !important;
+            list-style-image: none !important;
+            margin: 1em 0 0 0;
+            padding: 0 0 0 0.7em;
+        }
+
+#contenido_central .textos_contenido #preguntas .pregunta ul li {
+    padding: 0;
+}
+
+/*#contenido_central .textos_contenido ul.listado > li:before {
+    content: "";
+    padding:0
+}
+
+#contenido_central #FormasJuridicas #preguntas .pregunta ul li:before{
+	display:none;
+}	*/
+
+
+#contenido_central #preguntas .pregunta ul label {
+    padding-left: 0.3em;
+}
+
+#contenido_central #preguntas .pregunta TABLE TD INPUT {
+    margin-right: 0.5em;
+}
+
+#contenido_central #preguntas .boton {
+    /*float: left;*/
+    /*padding: 0.5em 0;
+    margin: 3em 0 0 0;
+    text-align:center;
+    background-color: #dde6ed;
+    border: 0;*/
+    display: none;
+}
+
+#contenido_central #resultados caption {
+    display: none;
+}
+
+/*#contenido_central .resultados {
+	font-size: 85%;
+}*/
+#contenido_central .resultados OL.tipoa {
+    list-style-type: lower-alpha !important;
+    margin: 0 0 0 2em !important;
+    padding: 0.5em 0.1em 0.5em 1em !important;
+    line-height: 1.4em !important;
+}
+
+
+
+/* ###################### ESTILO PARA LA PARTE DE PESTAÑAS #####################*/
+
+
+/*pestañas*/
+
+#contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header {
+    background-image: none;
+    /*border-bottom: 4px solid #ebebeb;*/
+    font-family: inherit;
+    font-size: 1em;
+    /*height: 50px;*/
+}
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header span {
+        display: table-cell;
+    }
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+        background-color: #c8c8c8;
+        background-image: none;
+        color: #000;
+        display: inline-table;
+        font-weight: bold;
+        height: auto;
+        margin: 0 4px 0 0;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+        background-image: none;
+        height: auto;
+        padding: 0;
+        vertical-align: bottom;
+    }
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+        background-image: none;
+        padding: 0;
+    }
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_active {
+        background-image: none;
+    }
+
+        #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_tab {
+            background-image: none;
+            color: #fff;
+            background-color: #333333;
+            background-image: none;
+            text-transform: uppercase;
+        }
+
+#contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_body {
+    font-family: inherit;
+    font-size: 1em;
+    border: 0;
+    border-top: 4px solid #ebebeb;
+    padding: 1em;
+    background-color: #fff;
+}
+
+#contenido_central #contenedorgeneralforma .resultados > div > .Menu + span {
+    display: block;
+    overflow-x: auto;
+}
+
+#contenido_central #contenedorgeneralforma P.tituloforma {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 0 0 0.5em .2em;
+    text-align: left;
+}
+
+#contenido_central #contenedorgeneralforma P.tituloforma-esp, #contenido_central #contenedorgeneralforma span.tituloforma-esp {
+    color: #000;
+    display: block;
+    font-weight: bold;
+    margin: 1em 0;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+#contenido_central #contenedorgeneralforma span.tituloforma-esp {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0.8em 0;
+}
+
+
+    #contenido_central #contenedorgeneralforma P.tituloforma-esp a, #contenido_central #contenedorgeneralforma span.tituloforma-esp a {
+        text-decoration: none;
+    }
+
+
+/*menu horizontal*/
+
+#contenido_central .menuhorizontal_formas {
+    display: inline-block;
+}
+
+    #contenido_central .menuhorizontal_formas ul {
+        background-color: #ebebeb;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+        #contenido_central .menuhorizontal_formas ul li,
+        #contenido_central .menuhorizontal_tramites ul li,
+        #contenido_central .menuhorizontal_tramitespm ul li {
+            background-color: #ebebeb;
+            border: 2px solid #fff;
+            box-sizing: border-box;
+            display: inline-block;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            width: auto;
+        }
+
+            /*#contenido_central .menuhorizontal_formas ul li{
+	width: 23%;
+}*/
+
+            #contenido_central .menuhorizontal_formas ul li:hover,
+            #contenido_central .menuhorizontal_tramites ul li:hover,
+            #contenido_central .menuhorizontal_tramitespm ul li:hover {
+                background-color: #fba05e; /* Color de fondo sobre el boton */
+                cursor: pointer; /* cambiar el aspecto del puntero */
+            }
+
+#contenido_central .textos_contenido #FormasJuridicas .menuhorizontal_formas ul > li:before {
+    display: none;
+}
+
+#contenido_central .textos_contenido .menuhorizontal_formas ul li:before a {
+    display: none;
+}
+
+#contenido_central .menuhorizontal_formas ul li a,
+#contenido_central .menuhorizontal_tramites ul li a,
+#contenido_central .menuhorizontal_tramitespm ul li a {
+    background-color: #ebebeb;
+    color: #000000;
+    display: block;
+    height: auto;
+    padding: 1em;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#contenido_central .menuhorizontal_formas ul li:active {
+    background: #5C5C5C;
+}
+
+#contenido_central .menuhorizontal_formas ul li a:hover,
+#contenido_central .menuhorizontal_tramites ul li a:hover,
+#contenido_central .menuhorizontal_tramitespm ul li a:hover,
+#contenido_central .menuhorizontal_formas ul li a:active,
+#contenido_central .menuhorizontal_tramites ul li a:active,
+#contenido_central .menuhorizontal_tramitespm ul li a:active {
+    background: #5C5C5C;
+    color: #fff;
+    opacity: 1;
+    text-decoration: none !important;
+}
+
+#contenido_central #FormasJuridicas p.SubMenu, #contenido_central #FormasJuridicasAcc p.SubMenu {
+    font-size: 1.45em;
+    color: #000;
+    padding: 0 0 0.25em 0.25em;
+}
+
+#contenido_central .menuhorizontal_tramites ul,
+#contenido_central .menuhorizontal_tramitespm ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 98% !important;
+    /*border: 0.1em solid #DC6109;*/
+    /*margin: 0 0 1em 0 !important;
+    padding: 0;
+    font-size: 1em;
+    overflow:hidden;
+    list-style-position: outside;*/
+}
+
+    #contenido_central .menuhorizontal_tramites ul li:before, #contenido_central .menuhorizontal_tramitespm ul li:before {
+        display: none;
+    }
+
+    #contenido_central .menuhorizontal_tramites ul li:hover, #contenido_central .menuhorizontal_tramitespm ul li:hover {
+        /*background-color:#F7C709; /* Color de fondo sobre el boton */
+        background-color: #fba05e; /* Color de fondo sobre el boton */
+        cursor: pointer; /* cambiar el aspecto del puntero */
+    }
+
+#contenido_central #FormasJuridicas .titulo, #contenido_central #FormasJuridicasAcc .titulo, #contenido_central #FormasJuridicasAcc p.item {
+    padding: 0.8em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* #######################   ESTILO PARA EL EFECTO ACORDEON  SOLO Tramitacion electronica #####################################*/
+
+
+#contenedorgeneralforma #ctl00_PlaceHolderMain_formaJ_TabContainer1_TabPanelTramElectronica_lblTramElectronica {
+    font-size: 0.85em;
+}
+
+    #contenedorgeneralforma #ctl00_PlaceHolderMain_formaJ_TabContainer1_TabPanelTramElectronica_lblTramElectronica h4.cursor {
+        cursor: pointer;
+        margin-left: 2em !important;
+        background-color: #fff !important;
+        background-image: none;
+        border: 0 !important;
+        font-weight: bold;
+        margin-bottom: 0.7em !important;
+        font-size: 1em;
+    }
+
+
+#ctl00_PlaceHolderMain_formulario_TabContainer1_TabPanelTramElectronica_lblTramElectronica H4.cursor {
+    cursor: pointer;
+    margin-left: 2em !important;
+    background-color: #fff !important;
+    background-image: none;
+    border: 0;
+    font-weight: normal;
+    margin-bottom: 0.7em !important;
+    font-size: 1em;
+}
+
+
+/* ###### SECCION TRAMITACION TELEMATICA ###### */
+
+#contenido_central #contenedorgeneralforma #ctl00_PlaceHolderMain_fj_lblTramElectronica {
+    margin: 0.5em 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+#contenido_central #contenedorgeneralforma > #ctl00_PlaceHolderMain_fj_lblTramElectronica > #nombresPestas {
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+    #contenido_central #contenedorgeneralforma > #ctl00_PlaceHolderMain_fj_lblTramElectronica > #nombresPestas H4.cursor {
+        font-size: 1.05em !important;
+        padding-bottom: 0.5em;
+        cursor: pointer;
+        margin-left: 2em !important;
+        font-weight: normal !important;
+        margin-bottom: 0em;
+    }
+
+#contenido_central #ctl00_PlaceHolderMain_formulario_TabContainer1_TabPanelTramElectronica_lblTramElectronica P.tituloforma {
+    color: #575757;
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+#contenido_central #pasos_previos h4, #contenido_central #pasos_obligatorios h4, #contenido_central #pasos_complementarios h4, #contenido_central .ContratosTrabajo h3 {
+    cursor: pointer;
+    margin-left: 1.2em !important;
+    background-color: inherit;
+}
+
+
+#contenido_central #pasos_previos p.item, #contenido_central #pasos_obligatorios p.item, #contenido_central #pasos_complementarios p.item, #contenido_central #nombresPestas p.item {
+    cursor: pointer;
+    margin-left: 1.2em !important;
+    font-weight: 600;
+    background-color: inherit;
+    font-size: 1.2em;
+}
+
+/*Acordeón Creación Telemática*/
+
+#contenido_central #FormasJuridicas p.item {
+    margin: 0;
+    padding: 1em;
+    cursor: pointer;
+    /*background-image: url(/_layouts/images/sede/arrow-down-b.png);
+	background-repeat: no-repeat;*/
+    color: #000;
+    font-weight: bold;
+    border-bottom: 4px solid #ebebeb;
+}
+
+    #contenido_central #FormasJuridicas p.item:before {
+        color: #C04700;
+        content: "\f078";
+        font-family: FontAwesome;
+        font-size: 0.8em;
+        display: inline-block;
+        padding: 0 0.8em 0.4em 0;
+        vertical-align: middle;
+    }
+
+
+#contenido_central #FormasJuridicas .ui-accordion-header.ui-state-active:before {
+    content: "\f077";
+}
+
+#contenido_central #FormasJuridicas p.item > span {
+    display: none;
+}
+
+
+#contenido_central #FormasJuridicas p.item {
+    /*background-position: 2.5% 30%;*/
+}
+
+#contenido_central #FormasJuridicas p.ui-accordion-header {
+    /*background-position: 2.5% 70%;*/
+}
+
+
+#contenido_central #FormasJuridicas .ui-accordion-header:hover,
+#contenido_central #FormasJuridicas .ui-accordion-header.ui-state-active {
+    /*background-color: #fff;
+	background-image: url(/_layouts/images/sede/arrow-up-b.png);
+	background-repeat: no-repeat;
+	background-position: 2.5% 60%;*/
+    color: #C04700;
+}
+
+#contenido_central #FormasJuridicas p.item + DIV {
+    margin: 0;
+    padding: 0.2em 1em 0.7em 1em;
+    background-color: #fff;
+}
+
+#contenido_central #contenedorgeneralforma H4 {
+    font-weight: normal;
+    color: #000;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    /*font-size:1.2em !important; */
+    display: block;
+    padding-left: 0.4em;
+}
+
+
+#contenido_central #contenedorgeneralforma .ui-accordion-content {
+    background-color: #fcfcfc;
+    padding: 1em 0 1em 1.5em;
+    margin-left: 2em;
+    border-radius: 0 0 5px 5px;
+    background-color: inherit;
+}
+
+#contenido_central #contenedorgeneralforma .masindentado {
+    margin-left: 2em !important;
+}
+
+/* ####### PROCESO DE CONSTITUCIÓN ####### */
+
+
+#contenido_central #ProcesoConstitucion {
+    float: left;
+    width: 100%;
+    background-color: #DDE6ED;
+    padding: 0;
+    margin: 0 0 1em 0;
+    border-bottom: solid 3px #b7ddf2;
+    border-right: solid 3px #b7ddf2;
+    font-size: 1.1em;
+}
+
+    #contenido_central #ProcesoConstitucion FIELDSET {
+        padding: 0.5em;
+        margin: 1em 0 1.5em 2em;
+        clear: both;
+        float: left;
+        width: 92%;
+        background-color: #DDE6ED;
+    }
+
+        #contenido_central #ProcesoConstitucion FIELDSET LEGEND {
+            /*	margin: 0;
+	padding: 0 1em;
+	color: #ee6e00;
+	font-weight:bold;*/
+            display: none;
+        }
+
+        #contenido_central #ProcesoConstitucion FIELDSET OL {
+            list-style: none !important;
+            margin: 0;
+            padding: 0.5em;
+            display: block;
+            clear: both;
+        }
+
+            #contenido_central #ProcesoConstitucion FIELDSET OL LI {
+                margin: 0.5em 0;
+                padding: 0.2em 0.5em;
+                display: block;
+                clear: both;
+            }
+
+    #contenido_central #ProcesoConstitucion .zonanombrecampo {
+        float: left;
+        width: 30%;
+        text-align: right;
+        padding: 0 0.5em 0 0;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+
+    #contenido_central #ProcesoConstitucion .zonacampoformulario {
+        float: left;
+        width: 65%;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+#contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites {
+    background-color: #fff;
+    padding: 0.8em;
+}
+
+    #contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites .resultados_tramitespc {
+        margin: 1em 1em 1em 0;
+        font-size: 1em;
+    }
+
+#contenido_central #FormasJuridicasAcc p.Apartado {
+    font-size: 1.85em !important;
+    font-weight: normal;
+    margin: 0.2em 0;
+}
+
+
+#contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites .resultados_tramitespc h2,
+#contenido_central .resultados p.Menu,
+#contenido_central .resultados_tramitespc p.Menu,
+#contenido_central .resultados_tramitespm p.Menu {
+    font-size: 1.65em !important;
+    font-weight: normal;
+    margin: 0.2em 0;
+}
+
+#contenido_central #FormasJuridicasAcc p.Menu {
+    font-size: 1.5em;
+}
+
+#contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites .menuhorizontal_tramites ul li:hover, .menuhorizontal_tramitespm ul li:hover {
+    background-color: #fba05e;
+    cursor: pointer;
+}
+
+#contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites .menuhorizontal_tramites ul li a, .menuhorizontal_tramitespm ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+    #contenido_central #ctl00_PlaceHolderMain_Formulario_pnlTramites .menuhorizontal_tramites ul li a:hover, .menuhorizontal_tramitespm ul li a:hover {
+        text-decoration: none !important;
+        color: #000000;
+    }
+
+
+/* ######## PUESTA EN MARCHA ######## */
+
+#contenido_central #ctl00_PlaceHolderMain_Formulario_pnlListadoPuestaEnMarcha UL#PuestaEnMarcha {
+    font-size: 1em;
+}
+
+
+/* Zona accesible */
+
+#contenido_central #FormasJuridicasAcc P.tituloforma {
+    color: #575757;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0.5em 0;
+    text-align: left;
+}
+
+#contenido_central #FormasJuridicasAcc P.tituloforma-esp, #contenido_central #FormasJuridicasAcc span.tituloforma-esp {
+    color: #575757;
+    font-size: 1em;
+    margin: 0.8em 0;
+    text-align: left;
+    display: block;
+    border-bottom: 1px dotted #000;
+    padding-bottom: 0;
+}
+
+#contenido_central #FormasJuridicasAcc table,
+#contenido_central #FormasJuridicas table {
+    margin-top: 0;
+    width: 98%;
+}
+
+    #contenido_central #FormasJuridicasAcc Table Caption,
+    #contenido_central #FormasJuridicas Table Caption {
+        /*background-color: #ebebeb;
+    padding: 0.8em;
+    text-align: left;*/
+        display: none;
+    }
+
+    #contenido_central #FormasJuridicasAcc table li,
+    #contenido_central #FormasJuridicas table li {
+        padding: 0;
+    }
+
+#contenido_central #FormasJuridicasAcc OL.tipoa {
+    list-style-type: lower-alpha !important;
+    margin: 0 0 0 2em !important;
+    padding: 0.5em 0.1em 0.5em 1em !important;
+    line-height: 1.7em !important;
+}
+
+#contenido_central #menusecundario P.listadosubmenu, #marcocontenido #menusecundario2 P.listadosubmenu {
+    color: #00648c;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 105%;
+}
+
+.ajax__tab_xp .ajax__tab_body {
+    font-size: 110%;
+}
+
+
+/*Responsive Formas Jurídicas*/
+
+@media only screen and (max-width: 768px) {
+
+    #contenido_central #preguntas .pregunta {
+        margin-bottom: 0;
+        width: 100% !important;
+    }
+
+        #contenido_central #preguntas .pregunta fieldset {
+            margin: 0 1em;
+            min-height: auto;
+        }
+
+
+        #contenido_central #preguntas .pregunta:nth-child(3) {
+            margin-bottom: 1em;
+        }
+
+        #contenido_central #preguntas .pregunta fieldset ul li {
+            display: inline-block;
+        }
+
+    /* ####### ESTILO PARA LA PARTE DE PESTAÑAS #######*/
+
+
+    /*pestañas*/
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* ####### ESTILO PARA LA PARTE DE PESTAÑAS #######*/
+
+
+    /*pestañas menu*/
+
+    #contenido_central #contenedorgeneralforma .ajax__tab_xp .ajax__tab_header {
+        overflow-x: auto;
+    }
+}
